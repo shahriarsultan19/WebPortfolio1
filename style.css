@@ -5,6 +5,9 @@ body{
 h1{
     font-size: 50px;
 }
+p{
+    color: dimgray;
+}
 .name-highlight{
     color: orange;
 }
@@ -22,10 +25,7 @@ h1{
 .top-banner{
     background-image:url(images/top-banner.png);
     background-repeat: no-repeat;
-}
-section{
-    height: 500px;
-    width: 100%;
+    float: left;
 }
 
 .hire-me{
@@ -36,20 +36,38 @@ section{
     font-weight: 800; 
     color: white;  
 }  
-
 .dream-area{
-    background-color: aliceblue;
-    background-repeat: no-repeat;
+    background-image:url(images/dream-bg.png);
+    /* background-repeat: no-repeat; */
+}
+.dream-half{
+    width: 50%;
+    float: left;
+    margin-top: 100px;
+    margin-bottom: 100px;
 }
 
-.dream-half{
-    width: 40%;
-    float: left;
-    margin-left: 5%;
-    padding-left:2%;
-}
 .dream-half img{
-    height: 100%;
-    width: 100%;
-    margin-top: 150px;
+    height: 400px ;
+}
+
+.dream-half h1{
+    margin-left: 100px;
+}
+.dream-half h3{
+    margin-left: 100px;
+}
+.dream-half p{
+    margin-left: 100px;
+}
+.dream-half a{
+    margin-left: 100px;
+    padding: 10px;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+.Resume-button{
+    background-image: linear-gradient(45deg, lightsalmon, tomato);
+    border-radius: 5px;
+
 }
