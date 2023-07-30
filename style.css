@@ -2,30 +2,38 @@ body{
     margin: 0;
     font-family: 'Poppins', sans-serif;    
 }
+
+/* Top banner start */
+.top-banner{
+    background-image:url(images/top-banner.png);
+    background-repeat: no-repeat;
+} 
+section{
+    height: 500px;
+    padding-bottom: 150px;
+} 
+
+.pro-half{
+    width:40%;
+    float: left;
+    margin-left: 5%;
+    padding-left: 2%;
+}
+
 h1{
     font-size: 50px;
-}
-p{
-    color: dimgray;
 }
 .name-highlight{
     color: orange;
 }
-.pro-half{
-    width: 40%;
-    float: left;
-    margin-left: 5%;
-    padding-left:2%;
-}
+
 .pro-half img{
-    height: 100%;
     width: 100%;
-    margin-top: 150px;
+    padding-top: 100px;  
 }
-.top-banner{
-    background-image:url(images/top-banner.png);
-    background-repeat: no-repeat;
-    float: left;
+
+p{
+    color: dimgray;
 }
 
 .hire-me{
@@ -36,38 +44,62 @@ p{
     font-weight: 800; 
     color: white;  
 }  
+/* Top banner end */
+
+/* Dream area start */
 .dream-area{
-    background-image:url(images/dream-bg.png);
-    /* background-repeat: no-repeat; */
+    background-image: url("images/dream-bg.png");
+    background-repeat: no-repeat;
+    background-position: right;
 }
 .dream-half{
-    width: 50%;
+    width:40%;
     float: left;
-    margin-top: 100px;
-    margin-bottom: 100px;
+    margin-left: 5%;
+    padding-left: 2%;
 }
 
 .dream-half img{
-    height: 400px ;
+    width: 700px;
+    padding-top: 100px;
+}
+/* Dream area end */
+
+/* Experience area start */
+
+.experience-area{
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+.exp-half{
+    width:40%;
+    float: left;
+    margin-left: 5%;
+    padding-left: 2%;
+}
+.experience-area h3{
+    color: orange;
+}
+.experience-area div{
+    box-shadow: 5px 7px 40px gray;
+    height: 80%;
+}
+#full-stack{
+    border-left: 7px solid tomato;
+}
+#baby-web{
+    border-left: 7px solid;
+    border-image: linear-gradient(blue 100%, cyan 100%);
+    border-image-slice: 1;
 }
 
-.dream-half h1{
-    margin-left: 100px;
-}
-.dream-half h3{
-    margin-left: 100px;
-}
-.dream-half p{
-    margin-left: 100px;
-}
-.dream-half a{
-    margin-left: 100px;
-    padding: 10px;
-    text-decoration: none;
-    color: rgb(255, 255, 255);
-}
-.Resume-button{
-    background-image: linear-gradient(45deg, lightsalmon, tomato);
-    border-radius: 5px;
+/* Experience area end */
 
+/* Footer area start */
+
+footer p{
+    text-align: center;
 }
+
+/* Footer area end */
